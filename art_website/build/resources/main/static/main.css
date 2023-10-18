@@ -1,7 +1,14 @@
+.box{
+width:300px;
+height:300px;
+background-color: #6D0D0F;
+margin:auto;
+}
+
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #FFFFFF, #A8A8A8, #000000,#FF1A05);
     background-size: 400% 400%;
-    animation: gradient 15s ease 1;
+    animation: gradient 15s ease infinite;
     height: 100vh;
 }
 
@@ -22,3 +29,4 @@ body {
 h1{
 font-family: 'Times New Roman', serif;
 }
+
